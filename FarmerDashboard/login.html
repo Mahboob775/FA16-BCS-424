@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- FTVM Logo -->
+    <link
+      rel="icon"
+      href="../image/LogoSample_ByTailorBrands (1).jpg"
+      type="image/png"
+    />
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <!-- css link -->
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../fontawesome-free-5.12.1-web/css/all.css" />
+    <script src="../js/login.js"></script>
+    <title>Log in</title>
+  </head>
+
+  <body class="" style="background-color: rgb(52, 150, 189);">
+    <div class="bg-light p-4 rounded login">
+      <a href="Farmer_dashboard.html" class="text-warning">Home</a>
+
+      <form action="message.html" onsubmit="return validate()">
+        <h5 class="text-center">Login</h5>
+        <div class="form-group">
+          <label for="">Email Address</label>
+          <input
+            type="email"
+            id="u_mail"
+            placeholder=" Enter Email"
+            class="form-control"
+          />
+
+          <label for="">Password</label>
+          <input
+            type="password"
+            id="u_pass"
+            placeholder="Enter Password"
+            class="form-control"
+          />
+
+          <p class="mt-3 text-center">
+            By signing up you accept our <a href="">terms of use</a>
+          </p>
+          <button class="btn btn-block btn-primary" type="submit">
+            Sign in
+          </button>
+
+          <p class="text-center mt-3 text-secondary">or</p>
+          <button class="btn btn-block btn-primary">
+            <a href="#" class="text-light"
+              ><i class="fab fa-google-plus-g"></i>Signup using google</a
+            >
+          </button>
+          <p class="text-center">
+            Don't have an account? <a href="signup.html">Signup-here</a>
+          </p>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
